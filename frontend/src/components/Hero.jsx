@@ -67,9 +67,9 @@ const HeroSection = () => {
           <h1 className="text-lg"></h1>
           <nav>
             <ul className="flex space-x-4">
-              <li><Link to="/" className="text-yellow-500">Home</Link></li>
-              <li><Link to="/about" className="text-yellow-500">About Us</Link></li>
-              <li><Link to="/contact" className="text-yellow-500">Contact Us</Link></li>
+              <li><Link to="/" className="text-yellow-500 text-xl font-semibold hover:text-blue-400 hover:scale-105 transition-all duration-300 hover:underline ">Home</Link></li>
+              <li><Link to="/about" className="text-yellow-500 text-xl font-semibold hover:text-blue-400 hover:scale-105 transition-all duration-300 hover:underline ">About Us</Link></li>
+              <li><Link to="/contact" className="text-yellow-500 text-xl font-semibold hover:text-blue-400 hover:scale-105 transition-all duration-300 hover:underline ">Contact Us</Link></li>
             </ul>
           </nav>
         </header>

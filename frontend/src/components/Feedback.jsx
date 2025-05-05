@@ -90,7 +90,7 @@ const FeedbackSection = () => {
     <section className="py-9 bg-white md:px-12">
       <div className="flex items-center mb-4 ">
         <h2 className="text-3xl  font-bold text-blue-800">Feedback</h2>
-        <div className="w-110 h-5 bg-yellow-400 mt-2"></div> {/* Yellow line */}
+        <div className="w-110 h-5 bg-yellow-400 ml-4"></div> {/* Yellow line */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <div className="p-4 border border-gray-200 rounded-lg shadow">
