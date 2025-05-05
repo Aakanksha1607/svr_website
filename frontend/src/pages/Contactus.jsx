@@ -1,16 +1,29 @@
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
+import React from 'react';
+import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+
 
 function Contact() {
     return (
-      <div className="py-12 bg-gray-50">
+     
+          <div className="bg-white">
+         <header className="bg-yellow-300 mt-8 p-4 flex justify-between items-center">
+           <h1 className="text-lg font-bold">About</h1>
+           <nav>
+             <ul className="flex space-x-4">
+               <li><Link to="/" className="text-black text-xl font-semibold">Home</Link></li>
+               <li><Link to="/about" className="text-black text-xl font-semibold">About Us</Link></li>
+             </ul>
+           </nav>
+         </header>
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-blue-800 mb-8">Contact Us</h1>
+          <h1 className="text-3xl font-bold text-orange-400 mb-8">Contact Us</h1>
           <div className="flex flex-col md:flex-row gap-8">
             {/* Address Section */}
             <div className="md:w-1/2">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Address</h2>
+              <h2 className="text-2xl font-semibold text-orange-400 mb-4">Our Address</h2>
               <p className="text-lg text-gray-600">
                 DR S.V.R Reddy’s Study Hall<br />
                 Srinagar Colony<br />
@@ -35,7 +48,10 @@ function Contact() {
             </div>
           </div>
         </div>
+         <Footer />
       </div>
+     
+     
     );
   }
   

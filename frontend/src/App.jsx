@@ -33,7 +33,8 @@ import ValuesSection from './components/Values';
 import StrengthsSection from './components/Strength';
 import FeedbackSection from './components/Feedback';
 import Footer from './components/Footer';
-import AboutUs from './pages/Aboutus'; // Import the AboutUs component
+import AboutUs from './pages/Aboutus';
+import Contact from './pages/Contactus';
 
 const Home = () => (
   <>

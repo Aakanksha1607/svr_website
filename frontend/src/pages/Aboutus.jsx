@@ -50,12 +50,12 @@
    const AboutUs = () => {
      return (
        <div className="bg-white">
-         <header className="bg-yellow-300 mt-8 p-4 flex justify-between items-center">
+         <header className="bg-orange-300 mt-8 p-4 flex justify-between items-center">
            <h1 className="text-lg font-bold">About</h1>
            <nav>
              <ul className="flex space-x-4">
                <li><Link to="/" className="text-black text-xl font-semibold">Home</Link></li>
-               <li><a href="#" className="text-black text-xl font-semibold">Contact Us</a></li>
+               <li><Link to="/contact" className="text-black text-xl font-semibold">Contact Us</Link></li>
              </ul>
            </nav>
          </header>
