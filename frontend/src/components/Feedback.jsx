@@ -87,7 +87,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYout
 
 const FeedbackSection = () => {
   return (
-    <section className="py-9 bg-white md:px-12">
+    <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 bg-gradient-to-br from-gray-100 overflow-x-hidden">
       <div className="flex items-center mb-4 ">
         <h2 className="text-3xl  font-bold text-blue-800">Feedback</h2>
         <div className="w-110 h-5 bg-yellow-400 ml-4"></div> {/* Yellow line */}

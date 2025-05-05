@@ -78,7 +78,7 @@ const StrengthsSection = () => {
           </div>
         </div>
       </div>
-      <style>
+      {/* <style>
         {`
           .animate-slide-in-top {
             animation: slideInTop 0.8s ease-out forwards;
@@ -129,7 +129,7 @@ const StrengthsSection = () => {
             }
           }
         `}
-      </style>
+      </style> */}
     </section>
   );
 };

@@ -74,7 +74,7 @@ const HeroSection = () => {
           </nav>
         </header>
         <div className="flex flex-col justify-center items-center text-center text-white h-full">
-          <img src="/path/to/logo.png" alt="Logo" className="mb-4" />
+          <img src="/path/to/logo.png" alt="Logo" className="w-full h-auto" />
           <h1 className="text-4xl font-bold glow-text">DR S.V.R Reddy’s Study Hall</h1>
           <p className="mt-2 text-lg glow-text">
             Unlocking Every Student’s Potential Through Expert Guidance and Personalized Learning
