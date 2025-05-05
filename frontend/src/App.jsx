@@ -1,3 +1,30 @@
+    //  // src/App.jsx
+    //  import React from 'react';
+
+    //  import HeroSection from './components/Hero';
+    //  import AmenitiesSection from './components/Amenities'
+    //  import ValuesSection from './components/Values'
+    //  import StrengthsSection from './components/Strength'
+    //  import FeedbackSection from './components/Feedback'
+    //  import Footer from './components/Footer'
+    //  const App = () => {
+    //    return (
+    //       <div>
+    //     {/* //    <Header /> */}
+    //        <HeroSection />
+    //        <AmenitiesSection />
+    //        <ValuesSection />
+    //        <StrengthsSection />
+    //        <FeedbackSection />
+    //        <Footer />
+    //      </div>
+    //    );
+    //  };
+
+    //  export default App;
+
+
+    // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import HeroSection from './components/Hero';
