@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Logo from '../assets/logo.svg';
@@ -11,14 +12,6 @@ function Contact() {
      
           <div className="bg-white">
 
-<Helmet>
-        <title>Contact Us | DR S.V.R Reddy’s Study Hall</title>
-        <meta name="description" content="Get in touch with DR S.V.R Reddy’s Study Hall. Find our location, contact number, and email for any inquiries or support." />
-        <meta name="keywords" content="Contact, Study Hall, SVR Reddy, Hyderabad, Address, Email, Phone" />
-        <meta name="author" content="DR S.V.R Reddy’s Study Hall" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Helmet>
-      
          <header className="bg-orange-300 mt-8 px-4 py-2 flex justify-between items-center h-14 overflow-visible">
          <img src={Logo} alt="DR S.V.R Reddy’s Study Hall Logo" className="w-35 h-35 mt-5" />
            <nav>

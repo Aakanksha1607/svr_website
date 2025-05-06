@@ -49,21 +49,42 @@ const AmenitiesSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-12">
         <div className="glow-effect p-4 bg-white rounded-lg">
-          <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746216694/FB_IMG_1446123780343_c2jrtv.webp" alt="Roof Terrace" className="w-full h-80 object-cover rounded-lg mb-4" />
+        <img
+  loading="lazy"
+  width="800"
+  height="600"
+  src="https://res.cloudinary.com/dtgjhc9za/image/upload/w_800/FB_IMG_1446123780343_c2jrtv.webp"
+  alt="Roof Terrace"
+  className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover rounded-lg mb-4"
+/>
           <h3 className="text-xl font-semibold text-orange-600">Roof Terrace Study Facility</h3>
           <p className="mt-2 text-gray-700">
             Study in a Peaceful, Open-Air Environment. Our rooftop study area offers a calm, well-ventilated space designed to help students focus better.
           </p>
         </div>
         <div className="glow-effect p-4 bg-white rounded-lg">
-          <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746216582/SVR_xocfiq.webp" alt="Classroom" className="w-full h-80 object-cover rounded-lg mb-4" />
-          <h3 className="text-xl font-semibold text-orange-600">Air-Conditioned Classrooms</h3>
+        <img
+  loading="lazy"
+  src="https://res.cloudinary.com/dtgjhc9za/image/upload/w_800/SVR_xocfiq.webp"
+  width="800"
+  height="600"
+  alt="Classroom"
+  className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover rounded-lg mb-4"
+/>
+   <h3 className="text-xl font-semibold text-orange-600">Air-Conditioned Classrooms</h3>
           <p className="mt-2 text-gray-700">
             Our air-conditioned classrooms ensure a comfortable, focused, and distraction-free learning environment year-round.
           </p>
         </div>
         <div className="glow-effect p-4 bg-white rounded-lg">
-          <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746216766/ACS_5056_auogih.webp" alt="Location" className="w-full h-80 object-cover rounded-lg mb-4" />
+          <img 
+          loading='lazy'
+          width="800"
+          height="600"
+          src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746216766/ACS_5056_auogih.webp"
+           alt="Location" 
+           className="w-full h-64 sm:h-72 md:h-80 lg:h-96 object-cover rounded-lg mb-4" />
+
           <h3 className="text-xl font-semibold text-orange-600">Located at Heart of the City</h3>
           <p className="mt-2 text-gray-700">
             Conveniently located in the heart of the city, our centre is nestled in a quiet, peaceful residential area—free from noise pollution and close to all essential shops.

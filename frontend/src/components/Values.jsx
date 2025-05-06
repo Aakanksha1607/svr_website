@@ -1,15 +1,16 @@
+
 import React from 'react';
 
 const ValuesSection = () => {
   return (
-    <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24 bg-gradient-to-br from-gray-100 overflow-x-hidden">
+    <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-15 bg-gradient-to-br from-gray-100 overflow-x-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <div className="flex items-center mb-4">
             <h2 className="text-3xl font-bold text-indigo-900 mb-2 text-center md:text-left">
               Values
             </h2>
-            <div className="h-1 w-16 bg-orange-400 ml-4"></div>
+            <div className="h-5 w-110 bg-orange-400 ml-4"></div>
           </div>
 
           <div className="mb-6 group animate-slide-in-left delay-200 bg-white p-5 rounded-lg shadow-md hover:shadow-xl hover:bg-amber-50 transition-all duration-500 ease-out">

@@ -1,8 +1,10 @@
+
 import React from 'react';
 import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Logo from '../assets/logo.svg';
+import { Helmet } from 'react-helmet';
 
 const AboutUs = () => {
   return (
@@ -11,7 +13,7 @@ const AboutUs = () => {
         <title>About Us | DR S.V.R Reddy’s Study Hall</title>
         <meta
           name="description"
-          content="Learn about DR S.V.R. Reddy’s Study Hall — a student-first learning center in Hyderabad offering personalized classes, 24x7 access, rooftop study zones, and a peaceful, modern environment."
+          content="Learn about DR S.V.R. Reddy’s Study Hall—a student-first learning center in Hyderabad offering personalized classes, 24x7 access, rooftop study zones, and a peaceful, modern environment."
         />
         <meta
           name="keywords"
@@ -83,7 +85,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div>
-      <div className="flex flex-col md:flex-row px-4 sm:px-6 md:px-10 lg:px-20 xl:px-32 py-8 gap-8 max-w-screen-xl mx-auto">
+      <div className="flex flex-col md:flex-row px-4 sm:px-6 md:px-10 lg:px-20 xl:px-32 py-8  max-w-screen-xl mx-auto">
   <div className="w-full md:w-1/2 h-1 bg-yellow-400"></div>
   <div className="w-full md:w-1/2 h-1 bg-blue-400"></div>
 </div>
