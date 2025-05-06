@@ -62,7 +62,7 @@ const HeroSection = () => {
   className="w-16 sm:w-20 md:w-24 lg:w-80"
 
   loading="lazy" />
-          <h1 className="text-4xl font-bold ">DR S.V.R Reddy’s Learning Hub</h1>
+          <h1 className="text-6xl font-bold ">DR S.V.R Reddy’s Learning Hub</h1>
           <p className="mt-2 text-lg ">
             Unlocking Every Student’s Potential Through Expert Guidance and Personalized Learning
           </p>
