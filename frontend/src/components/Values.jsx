@@ -6,7 +6,7 @@ const ValuesSection = () => {
     <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-15 bg-gradient-to-br from-gray-100 overflow-x-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-8 px-4 md:px-10">
             <h2 className="text-3xl font-bold text-indigo-900 mb-2 text-center md:text-left">
               Values
             </h2>

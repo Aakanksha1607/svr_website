@@ -172,6 +172,7 @@ const AboutUs = () => {
         />
       </Helmet>
 
+  
    <header className="bg-orange-300 mt-8 px-4 py-2 flex justify-between items-center h-14 overflow-visible ext-blue-400">
   <img src={Logo} alt="DR S.V.R Reddy’s Study Hall Logo" className="w-35 h-35 mt-5" />
   <nav>

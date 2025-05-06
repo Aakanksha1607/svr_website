@@ -1,7 +1,6 @@
 
 import React from 'react';
-import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle, FaStar, FaStarHalfAlt, FaRegStar} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle } from 'react-icons/fa';
 
 const FeedbackSection = () => {
   return (
@@ -76,16 +75,19 @@ const FeedbackSection = () => {
         <div className="w-1/2 h-1 bg-yellow-400"></div> {/* Yellow half */}
         <div className="w-1/2 h-1 bg-blue-400"></div>   {/* Blue half */}
       </div>
-<div className="flex items-center mb-4">
-      <h3 className="text-xl font-semibold text-yellow-500 ">Dr. S.V.R. Reddy's Learning Hub</h3>
+      <div className="flex items-center mb-4">
+        <h3 className="text-xl font-semibold text-yellow-500 ">Dr. S.V.R. Reddy's Learning Hub</h3>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-left">
         <div>
           <div className="flex items-start ">
             <div >
-              <h3 className="text-xl font-semibold text-yellow-500 flex items-center">Address    
-                <FaMapMarkerAlt className="text-yellow-500 mt-1" />
-              </h3>
+              <div className="flex items-center space-x-2">
+                <FaMapMarkerAlt className="text-yellow-500" />
+                <h3 className="text-xl font-semibold text-yellow-500">Address</h3>
+              </div>
+
+
               <p className="text-gray-700">
                 Plot no 83, 8-3-1048/A, Srinagar Colony Main Rd, Sagar Society, Sri Nagar Colony, Venkateshwara Hills, Banjara Hills, Hyderabad, Telangana 500073
               </p>
@@ -93,13 +95,16 @@ const FeedbackSection = () => {
           </div>
         </div>
         <div className="border-l-2 border-blue-500   pl-8"> {/* Increased width and decreased height */}
-          <div className="mt-0">
-  <h3 className="text-xl font-semibold text-yellow-500 flex items-center">
-    Contact Us <FaPhoneAlt className="text-yellow-500 " /> 
-  </h3>
-  <p className="mt-2 text-gray-700">Phone: 096521 38998<br />040-23740655</p>
-  </div>
-</div>
+          <div >
+            <div className="flex items-center space-x-2 text-yellow-500">
+              <FaPhoneAlt className="text-xl" />
+              <h3 className="text-xl font-semibold">Contact Us</h3>
+            </div>
+
+
+            <p className="mt-2 text-gray-700">Phone: 096521 38998<br />040-23740655</p>
+          </div>
+        </div>
         <div className="border-l-2 border-blue-500 pl-8">
           <h3 className="text-xl font-semibold text-yellow-500">Follow Us</h3>
           <div className="flex space-x-4 mt-2">
@@ -110,26 +115,22 @@ const FeedbackSection = () => {
           </div>
         </div>
         <div className="border-l-2 border-blue-500 pl-8">
-  <h3 className="text-xl font-semibold text-yellow-500">Links</h3>
-  <ul className="mt-2 text-blue-700">
-    <li className="flex items-center">
-      <FaHome className="mr-2 text-blue-500" />
-      <a href="#" className="font-semibold">Home</a>
-     
-
-    </li>
-    <li className="flex items-center mt-2">
-      <FaInfoCircle className="mr-2 text-blue-500" />
-      <Link to="/about" className="font-semibold">About Us</Link>
-    
-    </li>
-    <li className="flex items-center mt-2">
-      <FaPhoneAlt className="mr-2 text-blue-500" />
-
-      <Link to="/contact" className="font-semibold">Contact Us</Link>
-    </li>
-  </ul>
-</div>
+          <h3 className="text-xl font-semibold text-yellow-500">Links</h3>
+          <ul className="mt-2 text-blue-700">
+            <li className="flex items-center">
+              <FaHome className="mr-2 text-blue-500" />
+              <a href="#" className="font-semibold">Home</a>
+            </li>
+            <li className="flex items-center mt-2">
+              <FaInfoCircle className="mr-2 text-blue-500" />
+              <a href="#" className="font-semibold">About Us</a>
+            </li>
+            <li className="flex items-center mt-2">
+              <FaPhoneAlt className="mr-2 text-blue-500" />
+              <a href="#" className="font-semibold">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
