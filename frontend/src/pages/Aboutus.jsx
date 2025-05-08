@@ -176,8 +176,8 @@ const AboutUs = () => {
   <img src={Logo} alt="DR S.V.R Reddy’s Study Hall Logo" className="w-35 h-35 mt-5" />
   <nav>
     <ul className="flex space-x-4">
-      <li><Link to="/" className="hover:text-blue-600 hover:underline text-blue-500 text-xl font-semibold">Home</Link></li>
-      <li><Link to="/contact" className="hover:text-blue-600 hover:underline text-blue-500 text-xl font-semibold">Contact Us</Link></li>
+      <li><Link to="/" className="hover:text-blue-600 hover:underline text-black text-xl font-semibold">Home</Link></li>
+      <li><Link to="/contact" className="hover:text-blue-600 hover:underline text-black text-xl font-semibold">Contact Us</Link></li>
     </ul>
   </nav>
 </header>
