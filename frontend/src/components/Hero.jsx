@@ -43,8 +43,8 @@ const HeroSection = () => {
         </header>
         <div className="flex flex-col justify-center items-center text-center text-white h-100">
         <img src={Logo} alt="DR S.V.R Reddy’s Study Hall Logo" className="w-80  " />
-          <h1 className="text-4xl font-bold glow-text">DR S.V.R Reddy’s Learning Hub</h1>
-          <p className="mt-2 text-lg glow-text">
+          <h1 className="text-6xl font-bold">DR S.V.R Reddy’s Learning Hub</h1>
+          <p className="mt-2 text-lg ">
             Unlocking Every Student’s Potential Through Expert Guidance and Personalized Learning
           </p>
         </div>

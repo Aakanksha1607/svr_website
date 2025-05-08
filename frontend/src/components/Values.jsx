@@ -14,16 +14,16 @@ const ValuesSection = () => {
           </div>
 
           <div className="mb-6 group animate-slide-in-left delay-200 bg-white p-5 rounded-lg shadow-md hover:shadow-xl hover:bg-amber-50 transition-all duration-500 ease-out">
-            <h3 className="text-xl font-semibold text-amber-700 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
-              Our Vision
+            <h3 className="text-xl font-semibold text-orange-500 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
+              Our Motto
             </h3>
-            <p className="mt-2 text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed break-words">
-              To be the most trusted learning partner for students in our community.
+            <p className="mt-2 text-gray-700 ">
+             To provide the best study facilities to study those who really want to full fill their dreams, to the Aspirants who are willing to serve the nation as a doctor,as an engineer ,as  a part of a government servant.
             </p>
           </div>
 
           <div className="mb-6 group animate-slide-in-left delay-400 bg-white p-5 rounded-lg shadow-md hover:shadow-xl hover:bg-amber-50 transition-all duration-500 ease-out">
-            <h3 className="text-xl font-semibold text-amber-700 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
+            <h3 className="text-xl font-semibold text-orange-500 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
               Our Mission
             </h3>
             <p className="mt-2 text-gray-700">
@@ -32,7 +32,7 @@ const ValuesSection = () => {
           </div>
 
           <div className="group animate-slide-in-left delay-600 bg-white p-5 rounded-lg shadow-md hover:shadow-xl hover:bg-amber-50 transition-all duration-500 ease-out">
-            <h3 className="text-xl font-semibold text-amber-700 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
+            <h3 className="text-xl font-semibold text-orange-500 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
               © Dr. S.V.R. Reddy's Learning Hub
             </h3>
             <p className="mt-2 text-gray-700">

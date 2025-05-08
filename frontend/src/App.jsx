@@ -7,8 +7,6 @@ import AboutUs from './pages/Aboutus';
 import Contact from './pages/Contactus';
 import Home from './pages/HomeRoutes';
 
-
-
 const App = () => {
   return (
     <Router>

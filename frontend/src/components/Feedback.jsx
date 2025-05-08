@@ -1,42 +1,72 @@
 
 import React from 'react';
-import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle} from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle, FaStar, FaStarHalfAlt, FaRegStar} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const FeedbackSection = () => {
   return (
     <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-15 bg-gradient-to-br from-gray-100 overflow-x-hidden">
       <div className="flex items-center mb-4 ">
         <h2 className="text-3xl  font-bold text-blue-800">Feedback</h2>
-        <div className="w-110 h-5 bg-yellow-400 ml-4"></div> {/* Yellow line */}
+        <div className="w-110 h-5 bg-orange-400 ml-4"></div> {/* Yellow line */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <div className="p-4 border border-gray-200 rounded-lg shadow">
-          <p className="text-gray-700 font-bold text-xl">"A great place to focus on something which makes us"</p>
+          <p className="text-gray-700 font-bold text-xl mb-2">" Pretty Clean and hygienic.."</p>
+          <p>This is one of it's own kind of Study Hall in hyderabad, From the upper management to the lower management everybody here treats with Respect, 
+          Pretty Clean and hygienic. Also has a discussion room at the top. It has been 2 years since joined 
+          </p>
           <div className="flex items-center mt-4">
-            <img src=" https://img.freepik.com/premium-vector/round-man-character-mockup-icon-flat-color-character-template-jacket-round-icon-man-jacket-dark-hair-vector-icon_774778-2396.jpg" alt="Mandeep Ram" className="w-11 h-11 rounded-full mr-3" />
+            <img src=" https://img.freepik.com/premium-vector/round-man-character-mockup-icon-flat-color-character-template-jacket-round-icon-man-jacket-dark-hair-vector-icon_774778-2396.jpg" alt="D.Shagun " className="w-11 h-11 rounded-full mr-3 mt-1" />
             <div>
-              <p className="font-semibold">Mandeep Ram</p>
-              <p className="text-sm text-gray-500">NIT Hyd</p>
+              <p className="font-semibold mt-1">D.Shagun </p>
+              <span className="flex  text-yellow-400">
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaStar />
+      </span>
+              <p className="text-sm text-gray-500"> UPSC Aspirant</p>
             </div>
           </div>
         </div>
         <div className="p-4 border border-gray-200 rounded-lg shadow">
-          <p className="text-gray-700 font-bold text-xl">"Lovely area in the Hyderabad to study alone"</p>
+          <p className="text-gray-700 font-bold text-xl mb-2">"Found a unique way of studies.."</p>
+          <p>Space for the study is good. Proud to be part of SVR Reddy's Learning hub. Here at this study hall I have noticed a unique way of studies that 
+          Aspirants do. It has been more than 1 year I have joined and able to focus on my self.</p>
           <div className="flex items-center mt-4">
-            <img src="https://cdn-icons-png.flaticon.com/256/4140/4140047.png" alt="Akshara" className="w-10 h-10 rounded-full mr-3" />
-            <div>
-              <p className="font-semibold">Akshara</p>
-              <p className="text-sm text-gray-500">JNTU</p>
+            <img src="https://cdn-icons-png.flaticon.com/256/4140/4140047.png" alt="Dr.Roopa" className="w-10 h-10 rounded-full mr-3 mt-6" />
+            <div> 
+              <p className="font-semibold mt-6">Dr.Roopa</p>
+              <span className="flex text-yellow-400">
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaStarHalfAlt />
+      </span>
+              <p className="text-sm text-gray-500 ">NEET Aspirant</p>
             </div>
           </div>
         </div>
         <div className="p-4 border border-gray-200 rounded-lg shadow">
-          <p className="text-gray-700 font-bold text-xl">"I like this place the most to focus on my studies"</p>
+          <p className="text-gray-700 font-bold text-xl mb-2">"Here Learning is like Meditation.."</p>
+          <p> I start my day here at 5 Am in the morning. Very calm and composed.Studying in SVR Reddy's learning is like Meditation. More Concentration More Power to Us,
+         this gives chill while you study here. This Study hall made me fell in love more with my course.
+          </p>
           <div className="flex items-center mt-4">
-            <img src="https://cdn-icons-png.flaticon.com/512/6833/6833591.png" alt="Shreya Agarwal" className="w-10 h-10 rounded-full mr-3" />
+            <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746740706/fbimg_j2olaf.png" alt="M.Guna Shekar" className="w-10 h-10 rounded-full mr-3 " />
             <div>
-              <p className="font-semibold">Shreya Agarwal</p>
-              <p className="text-sm text-gray-500">Sr Developer</p>
+              <p className="font-semibold">M.Guna Shekar</p>
+              <span className="flex text-yellow-400">
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaStar />
+        <FaRegStar />
+      </span>
+              <p className="text-sm text-gray-500">DSC Aspirant</p>
             </div>
           </div>
         </div>
@@ -85,14 +115,18 @@ const FeedbackSection = () => {
     <li className="flex items-center">
       <FaHome className="mr-2 text-blue-500" />
       <a href="#" className="font-semibold">Home</a>
+     
+
     </li>
     <li className="flex items-center mt-2">
       <FaInfoCircle className="mr-2 text-blue-500" />
-      <a href="#" className="font-semibold">About Us</a>
+      <Link to="/about" className="font-semibold">About Us</Link>
+    
     </li>
     <li className="flex items-center mt-2">
       <FaPhoneAlt className="mr-2 text-blue-500" />
-      <a href="#" className="font-semibold">Contact Us</a>
+
+      <Link to="/contact" className="font-semibold">Contact Us</Link>
     </li>
   </ul>
 </div>

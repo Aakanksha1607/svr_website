@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center justify-center sm:justify-end">
            
-            <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746478850/logo_transparent_gfmunv.png" alt="ZenBeta Logo" className="w-50 h-15 " />
+            <img src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746478850/logo_transparent_gfmunv.png" alt="ZenBeta Logo" className="w-35 h-10 " />
           </div>
         </div>
       </div>

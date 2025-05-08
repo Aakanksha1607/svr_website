@@ -16,7 +16,7 @@ const StrengthsSection = () => {
           <div className="group animate-slide-in-left transition-all duration-500 ease-out bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:bg-amber-50 flex flex-col">
             <div className="relative overflow-hidden rounded-lg mb-4">
               <img
-                src="https://bsmedia.business-standard.com/_media/bs/img/article/2021-12/03/full/1638506038-4213.jpg"
+                src="https://res.cloudinary.com/dtgjhc9za/image/upload/v1746734385/WhatsApp_Image_2025-05-09_at_12.01.02_AM_2_zurqkz.webp"
                 alt="Students Life Style"
                 className="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-500"
               />
