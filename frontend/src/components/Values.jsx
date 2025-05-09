@@ -26,7 +26,7 @@ const ValuesSection = () => {
             <h3 className="text-xl font-semibold text-orange-500 group-hover:text-amber-600 transition-colors duration-300 hover:scale-105 hover:translate-x-2">
               Our Mission
             </h3>
-            <p className="mt-2 text-gray-700">
+            <p className="mt-2 text-gray-700"> 
               To provide high-quality, accessible, and personalized education that empowers students to reach their full potential.
             </p>
           </div>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle,FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 const FeedbackSection = () => {
   return (
     <section className="w-full h-auto py-7 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-15 bg-gradient-to-br from-gray-100 overflow-x-hidden">
@@ -11,7 +11,7 @@ const FeedbackSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <div className="p-4 border border-gray-200 rounded-lg shadow">
-          <p className="text-gray-700 font-bold text-xl mb-2">" Pretty Clean and hygienic.."</p>
+          <p className="text-gray-700 font-bold text-xl mb-2">"Pretty Clean and hygienic.."</p>
           <p>This is one of it's own kind of Study Hall in hyderabad, From the upper management to the lower management everybody here treats with Respect, 
           Pretty Clean and hygienic. Also has a discussion room at the top. It has been 2 years since joined 
           </p>
@@ -20,12 +20,12 @@ const FeedbackSection = () => {
             <div>
               <p className="font-semibold mt-1">D.Shagun </p>
               <span className="flex  text-yellow-400">
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaStar />
-      </span>
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                </span>
               <p className="text-sm text-gray-500"> UPSC Aspirant</p>
             </div>
           </div>
@@ -39,12 +39,12 @@ const FeedbackSection = () => {
             <div> 
               <p className="font-semibold mt-6">Dr.Roopa</p>
               <span className="flex text-yellow-400">
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaStarHalfAlt />
-      </span>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStarHalfAlt />
+              </span>
               <p className="text-sm text-gray-500 ">NEET Aspirant</p>
             </div>
           </div>
@@ -59,12 +59,12 @@ const FeedbackSection = () => {
             <div>
               <p className="font-semibold">M.Guna Shekar</p>
               <span className="flex text-yellow-400">
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaStar />
-        <FaRegStar />
-      </span>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaRegStar />
+              </span>
               <p className="text-sm text-gray-500">DSC Aspirant</p>
             </div>
           </div>
@@ -86,7 +86,6 @@ const FeedbackSection = () => {
                 <FaMapMarkerAlt className="text-yellow-500" />
                 <h3 className="text-xl font-semibold text-yellow-500">Address</h3>
               </div>
-
 
               <p className="text-gray-700">
                 Plot no 83, 8-3-1048/A, Srinagar Colony Main Rd, Sagar Society, Sri Nagar Colony, Venkateshwara Hills, Banjara Hills, Hyderabad, Telangana 500073
@@ -119,15 +118,15 @@ const FeedbackSection = () => {
           <ul className="mt-2 text-blue-700">
             <li className="flex items-center">
               <FaHome className="mr-2 text-blue-500" />
-              <a href="#" className="font-semibold">Home</a>
+              <a href="#" className="font-semibold hover:underline">Home</a>
             </li>
             <li className="flex items-center mt-2">
-              <FaInfoCircle className="mr-2 text-blue-500" />
-              <a href="#" className="font-semibold">About Us</a>
+              <FaInfoCircle className="mr-2 text-blue-500 " />
+              <Link to="/about" className="font-semibold hover:underline">About Us</Link>
             </li>
             <li className="flex items-center mt-2">
               <FaPhoneAlt className="mr-2 text-blue-500" />
-              <a href="#" className="font-semibold">Contact Us</a>
+              <Link to="/contact" className="font-semibold hover:underline">Contact Us</Link>
             </li>
           </ul>
         </div>
