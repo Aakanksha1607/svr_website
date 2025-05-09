@@ -4,7 +4,11 @@ import Footer from '../components/Footer';
 import Logo from '../assets/logo.svg';
 
 import React from 'react';
-import { FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+
+import {Helmet} from 'react-helmet';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+
+
 
 
 function Contact() {
@@ -26,8 +30,8 @@ function Contact() {
          <img src={Logo} alt="DR S.V.R Reddy’s Study Hall Logo" className="w-35 h-35 mt-5" />
            <nav>
              <ul className="flex space-x-4">
-               <li><Link to="/" className="hover:text-blue-600 hover:underline text-blue-400 text-xl font-semibold ">Home</Link></li>
-               <li><Link to="/about" className="hover:text-blue-600 hover:underline text-blue-400 text-xl font-semibold">About Us</Link></li>
+               <li><Link to="/" className="hover:text-blue-600 hover:underline text-black text-xl font-semibold ">Home</Link></li>
+               <li><Link to="/about" className="hover:text-blue-600 hover:underline text-black text-xl font-semibold">About Us</Link></li>
              </ul>
            </nav>
          </header>
@@ -36,19 +40,22 @@ function Contact() {
           <div className="flex flex-col md:flex-row gap-8">
             {/* Address Section */}
             <div className="md:w-1/2 mt-4">
-              <h2 className="text-2xl font-semibold text-blue-400 mb-4">Our Address</h2>
-              <p className="text-lg text-gray-800">
-                DR S.V.R Reddy’s Study Hall<br />
-                Srinagar Colony<br />
-                Hyderabad, Telangana 500073<br />
-                India
-              </p>
-              <p className="text-lg text-gray-600 mt-4">
-                <strong>Phone:</strong> 096521 38998<br />
-                <strong>Email:</strong> contact@svrreddystudyhall.com
-              </p>
-            </div>
-  
+            <div className="bg-white rounded-xl shadow-md transition duration-300 p-6 hover:shadow-[0_0_20px_4px_rgba(255,215,0,0.7)]">
+    <h2 className="text-2xl font-semibold text-yellow-500 flex items-center mb-4">
+      <FaMapMarkerAlt className="mr-2" /> Our Address
+    </h2>
+    <p className="text-lg text-gray-800">
+      DR S.V.R Reddy’s Learning Hub<br />
+      Srinagar Colony<br />
+      Hyderabad, Telangana 500073<br />
+      India
+    </p>
+    <p className="text-lg text-gray-800 mt-4">
+      <strong>Phone:</strong> 096521 38998, 040-23740655<br />
+      <strong>Email:</strong> contact@svrreddystudyhall.com
+    </p>
+  </div>
+</div>
             {/* Map Section */}
             <div className="md:w-1/2 mb-9">
               <div className="bg-blue-100 rounded-lg p-4 shadow-lg">

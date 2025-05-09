@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaFacebook, FaLinkedin, FaInstagram, FaYoutube, FaHome, FaInfoCircle,FaStar, FaStarHalfAlt, FaRegStar } from 'react-icons/fa';
 
 const FeedbackSection = () => {
   return (
